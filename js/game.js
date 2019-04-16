@@ -113,6 +113,7 @@ var game = {
             ]
         },
         death: {
+            background_image: "hole_fall.jpg",
             music: "defeated.mp3",
             message: "How can you fight a ghost? Your body was taken over by it, destroying your soul in the process..",
             choices: [
@@ -123,6 +124,7 @@ var game = {
             ]
         },
         upstairs: {
+            background_image: "cross.jpg",
             message: "You found an old, moldy, wooden cross on the floor.",
             choices: [
                 {
@@ -160,6 +162,7 @@ var game = {
             ]
         },
         nocross: {
+            background_image: "hole_fall.jpg",
             music: "defeated.mp3",
             message: "A ghost appeared and took you by surprise! Your body has been taken over, killing your soul..",
             choices: [
