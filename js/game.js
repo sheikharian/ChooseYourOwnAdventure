@@ -22,7 +22,6 @@ var game = {
 
         cave: {
             background_image: "building_inside.jpg",
-            music: "Final-Fantasy-7-Boss-Battle.mp3",
             message: "There appears to be a staircase leading upstairs and two open rooms.",
             choices: [
                 {
@@ -51,7 +50,7 @@ var game = {
         },
         room1: {
             background_image: "room_1.jpg",
-            music: "Final-Fantasy-7-Boss-Battle.mp3",
+            music: "ambient_horror.mp3",
             message: "There seems to be a hole in the floor.",
             choices: [
                 {
@@ -76,7 +75,7 @@ var game = {
         },
         room2: {
             background_image: "room_2.jpg",
-            music: "Final-Fantasy-7-Boss-Battle.mp3",
+            music: "ambient_horror.mp3",
             message: "The room seems to be empty.",
             choices: [
                 {
@@ -90,6 +89,7 @@ var game = {
             ]
         },
         ghost: {
+            music: "attacked.mp3",
             message: "It seems you have angered a ghost!",
             choices: [
                 {
