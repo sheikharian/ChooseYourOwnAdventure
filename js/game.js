@@ -1,7 +1,6 @@
 // NOTE - You must have a level with the name "start".  This is used as the first level in the game.
 
 var game = {
-    music: "ambient_horror.mp3",
     background_image: "building_outside.jpg",
     levels: {
 
@@ -90,6 +89,7 @@ var game = {
             ]
         },
         ghost: {
+            background_image: "ghost.jpg",
             music: "attacked.mp3",
             message: "It seems you have angered a ghost!",
             choices: [
@@ -136,6 +136,7 @@ var game = {
             ]
         },
         cross: {
+            background_image: "ghost.jpg",
             music: "attacked.mp3",
             message: "A ghost appeared!",
             choices: [
