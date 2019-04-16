@@ -134,6 +134,7 @@ var game = {
             ]
         },
         cross: {
+            music: "attacked.mp3",
             message: "A ghost appeared!",
             choices: [
                 {
