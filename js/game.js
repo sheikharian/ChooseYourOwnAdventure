@@ -6,6 +6,7 @@ var game = {
     levels: {
 
         start: {
+            music: "ambient_horror.mp3",
             message: "You have discovered an abandoned building in the forest.",
             choices: [
                 {
@@ -112,6 +113,7 @@ var game = {
             ]
         },
         death: {
+            music: "defeated.mp3",
             message: "How can you fight a ghost? Your body was taken over by it, destroying your soul in the process..",
             choices: [
                 {
@@ -157,6 +159,7 @@ var game = {
             ]
         },
         nocross: {
+            music: "defeated.mp3",
             message: "A ghost appeared and took you by surprise! Your body has been taken over, killing your soul..",
             choices: [
                 {
